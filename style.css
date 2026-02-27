@@ -12,6 +12,13 @@ body {
     background: linear-gradient(-45deg, #1d2671, #c33764, #2c5364, #0f2027);
     background-size: 400% 400%;
     animation: gradientMove 12s ease infinite;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    
 }
 
 @keyframes gradientMove {
